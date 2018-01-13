@@ -1,0 +1,10 @@
+# Linux
+*.user
+*.qmlc
+*.jsc
+.directory
+*.~*
+
+# KiCAD
+*.bak
+*-bak

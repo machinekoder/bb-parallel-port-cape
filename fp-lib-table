@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name Socket_BeagleBone_Black)(type KiCad)(uri "$(KIPRJMOD)/Socket_BeagleBone_Black.pretty")(options "")(descr ""))
+  (lib (name footprint)(type KiCad)(uri "$(KIPRJMOD)/library/footprint.pretty")(options "")(descr ""))
+  (lib (name 2N7002K-7)(type Legacy)(uri "$(KIPRJMOD)/library/2N7002K-7.mod")(options "")(descr ""))
+  (lib (name 515-1114F)(type Legacy)(uri "$(KIPRJMOD)/library/515-1114F.mod")(options "")(descr ""))
+  (lib (name GTL2003PW)(type Legacy)(uri "$(KIPRJMOD)/library/GTL2003PW.mod")(options "")(descr ""))
+  (lib (name PTS645SM43SMTR92LFS)(type Legacy)(uri "$(KIPRJMOD)/library/PTS645SM43SMTR92LFS.mod")(options "")(descr ""))
+  (lib (name M20-8760342)(type Legacy)(uri "$(KIPRJMOD)/library/M20-8760342.mod")(options "")(descr ""))
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N7002K-7
+D N-CHANNEL ENHANCEMENT MODE MOSFET
+K
+F http://componentsearchengine.com/Datasheets/1/2N7002K-7.pdf
+$ENDCMP
+#
+#End Doc Library

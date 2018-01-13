@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 515-1114F
+#/1010354/13938/2.18/12/4/Undefined or Miscellaneous
+DEF 515-1114F U 0 30 Y Y 1 F N
+F0 "U" 400 150 50 H V C CNN
+F1 "515-1114F" 400 -650 50 H V C CNN
+F2 "515-1114F" 400 -750 50 H I C CNN
+F3 "http://www.dialightsignalsandcomponents.com/Assets/Drawings/2D_Drawings_DrawingDetailedSpec/C16789.pdf" 400 -850 50 H I C CNN
+F4 "LED Light Pipes LIGHT PIPE BI-LEVEL" 400 -950 50 H I C CNN "Description"
+F5 "RS" 400 -1050 50 H I C CNN "Supplier_Name"
+F6 "" 400 -1150 50 H I C CNN "RS Part Number"
+F7 "Dialight" 400 -1250 50 H I C CNN "Manufacturer_Name"
+F8 "515-1114F" 400 -1350 50 H I C CNN "Manufacturer_Part_Number"
+F9 "" 400 -1450 50 H I C CNN "Allied_Number"
+F10 "" 400 -1550 50 H I C CNN "Other Part Number"
+F11 "" 650 -1650 50 H I C CNN "Height"
+DRAW
+S 200 100 600 -600 0 0 10 f
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 0 -100 200 R 50 50 0 0 U
+X 3 3 0 -200 200 R 50 50 0 0 U
+X 4 4 0 -300 200 R 50 50 0 0 U
+X 5 5 0 -400 200 R 50 50 0 0 U
+X 6 6 0 -500 200 R 50 50 0 0 U
+X 7 7 800 0 200 L 50 50 0 0 U
+X 8 8 800 -100 200 L 50 50 0 0 U
+X 9 9 800 -200 200 L 50 50 0 0 U
+X 10 10 800 -300 200 L 50 50 0 0 U
+X 11 11 800 -400 200 L 50 50 0 0 U
+X 12 12 800 -500 200 L 50 50 0 0 U
+ENDDRAW
+ENDDEF
+#
+#End Library

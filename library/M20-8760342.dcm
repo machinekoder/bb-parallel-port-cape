@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M20-8760342
+D M20 Header, Smt, Dil, Vertical, 3+3 W HARWIN M20 Series, 2.54mm Pitch 6 Way 2 Row Straight PCB Header, Solder Termination, 3A
+K
+F http://docs-europe.electrocomponents.com/webdocs/0da5/0900766b80da5fee.pdf
+$ENDCMP
+#
+#End Doc Library
