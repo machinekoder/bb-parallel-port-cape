@@ -1,4 +1,4 @@
-update=Sat 13 Jan 2018 12:09:56 PM CET
+update=Sun 04 Mar 2018 02:30:33 PM CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,13 @@ LibName29=contrib
 LibName30=GTL2003PW
 LibName31=switches
 LibName32=library/bbb-parallel
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

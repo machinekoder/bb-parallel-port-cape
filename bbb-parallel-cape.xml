@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/alexander/projects/roesslersystems/bbb-parallel-cape/bbb-parallel-cape.sch</source>
-    <date>Sat 13 Jan 2018 05:48:31 PM CET</date>
+    <date>Thu 01 Mar 2018 03:22:41 PM CET</date>
     <tool>Eeschema 4.0.7+dfsg1-1~bpo9+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -34,7 +34,7 @@
   <components>
     <comp ref="P102">
       <value>BeagleBone_Black_Header</value>
-      <footprint>Socket_BeagleBone_Black:Socket_BeagleBone_Black</footprint>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x23_Pitch2.54mm</footprint>
       <fields>
         <field name="PartNo">S2211EC-23-ND</field>
         <field name="Mfg">Sullins</field>
@@ -46,7 +46,7 @@
     </comp>
     <comp ref="P103">
       <value>BeagleBone_Black_Header</value>
-      <footprint>Socket_BeagleBone_Black:Socket_BeagleBone_Black</footprint>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x23_Pitch2.54mm</footprint>
       <fields>
         <field name="PartNo">S2211EC-23-ND</field>
         <field name="Mfg">Sullins</field>
@@ -58,6 +58,7 @@
     </comp>
     <comp ref="D2">
       <value>Green</value>
+      <footprint>LEDs:LED_0805</footprint>
       <fields>
         <field name="PartNo">732-4983-1-ND</field>
         <field name="Mfg">Wurth Electronics Inc.</field>
@@ -80,6 +81,7 @@
     </comp>
     <comp ref="P101">
       <value>IDC26</value>
+      <footprint>footprint:IDC26</footprint>
       <fields>
         <field name="PartNo">1175-1625-ND</field>
         <field name="Mfg">CNC Tech</field>
@@ -91,6 +93,7 @@
     </comp>
     <comp ref="P104">
       <value>IDC26</value>
+      <footprint>footprint:IDC26</footprint>
       <fields>
         <field name="PartNo">1175-1625-ND</field>
         <field name="Mfg">CNC Tech</field>
@@ -113,6 +116,7 @@
     </comp>
     <comp ref="R102">
       <value>330</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="PartNo">311-330ARCT-ND</field>
         <field name="Mfg">Yaego</field>
@@ -124,6 +128,7 @@
     </comp>
     <comp ref="D1">
       <value>Yellow</value>
+      <footprint>LEDs:LED_0805</footprint>
       <fields>
         <field name="PartNo">732-4987-1-ND</field>
         <field name="Mfg">Wurth Electronics Inc.</field>
@@ -135,6 +140,7 @@
     </comp>
     <comp ref="R101">
       <value>330</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="PartNo">311-330ARCT-ND</field>
         <field name="Mfg">Yaego</field>
@@ -146,6 +152,7 @@
     </comp>
     <comp ref="SW101">
       <value>SW_Push</value>
+      <footprint>footprint:PTS645_SMT</footprint>
       <fields>
         <field name="PartNo">CKN9112CT-ND</field>
         <field name="Mfg">C&amp;K</field>
@@ -157,6 +164,7 @@
     </comp>
     <comp ref="SW102">
       <value>SW_Push</value>
+      <footprint>footprint:PTS645_SMT</footprint>
       <fields>
         <field name="PartNo">CKN9112CT-ND</field>
         <field name="Mfg">C&amp;K</field>
@@ -168,6 +176,7 @@
     </comp>
     <comp ref="Q101">
       <value>2N7002K</value>
+      <footprint>2N7002K-7:SOT95P240X105-3N</footprint>
       <fields>
         <field name="PartNo">2N7002K-7DICT-ND</field>
         <field name="Mfg">Diodes Inc.</field>
@@ -179,6 +188,7 @@
     </comp>
     <comp ref="P105">
       <value>Conn_02x03_Odd_Even</value>
+      <footprint>M20-8760342:M20-8760342</footprint>
       <fields>
         <field name="PartNo">952-1922-ND</field>
         <field name="Mfg">Harwin Inc.</field>
@@ -190,6 +200,7 @@
     </comp>
     <comp ref="JP101">
       <value>Jumper_NC_Dual_Double_Header</value>
+      <footprint>M20-8760342:M20-8760342</footprint>
       <fields>
         <field name="PartNo">952-1922-ND</field>
         <field name="Mfg">Harwin Inc.</field>
@@ -199,8 +210,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A5A9D6C</tstamp>
     </comp>
-    <comp ref="Z105">
+    <comp ref="Z106">
       <value>Light_Pipe_2_LED</value>
+      <footprint>footprint:515-1114F</footprint>
       <fields>
         <field name="PartNo">350-3399-ND</field>
         <field name="Mfg">Dialight</field>
@@ -213,7 +225,7 @@
     <comp ref="Z101">
       <value>GENERIC_BLOCK</value>
       <fields>
-        <field name="PartNo">1175-1625-ND</field>
+        <field name="PartNo">1175-1444-ND</field>
         <field name="Mfg">CNC Tech</field>
         <field name="AssemblyVariant">1</field>
       </fields>
@@ -235,7 +247,7 @@
     <comp ref="Z103">
       <value>GENERIC_BLOCK</value>
       <fields>
-        <field name="PartNo">1175-1625-ND</field>
+        <field name="PartNo">1175-1444-ND</field>
         <field name="Mfg">CNC Tech</field>
         <field name="AssemblyVariant">2</field>
       </fields>
@@ -254,9 +266,20 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A5B85F8</tstamp>
     </comp>
+    <comp ref="Z105">
+      <value>GENERIC_BLOCK</value>
+      <fields>
+        <field name="PartNo">EG2041-ND</field>
+        <field name="Mfg">E-Switch</field>
+        <field name="AssemblyVariant">1</field>
+      </fields>
+      <libsource lib="bbb-parallel" part="GENERIC_BLOCK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7F4738</tstamp>
+    </comp>
     <comp ref="IC201">
       <value>GTL2003PW</value>
-      <footprint>SOP65P640X110-20N</footprint>
+      <footprint>GTL2003PW:SOP65P640X110-20N</footprint>
       <datasheet>http://www.nxp.com/documents/data_sheet/GTL2003.pdf</datasheet>
       <fields>
         <field name="PartNo">568-4232-5-ND</field>
@@ -275,6 +298,7 @@
     </comp>
     <comp ref="R201">
       <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="PartNo">311-10KARCT-ND</field>
         <field name="Mfg">Yaego</field>
@@ -286,6 +310,7 @@
     </comp>
     <comp ref="C201">
       <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="PartNo">1276-1007-1-ND</field>
         <field name="Mfg">Samsung Electro-Mechanics</field>
@@ -297,6 +322,7 @@
     </comp>
     <comp ref="R202">
       <value>200k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="PartNo">311-200KARCT-ND</field>
         <field name="Mfg">Yaego</field>
@@ -308,7 +334,7 @@
     </comp>
     <comp ref="IC202">
       <value>GTL2003PW</value>
-      <footprint>SOP65P640X110-20N</footprint>
+      <footprint>GTL2003PW:SOP65P640X110-20N</footprint>
       <datasheet>http://www.nxp.com/documents/data_sheet/GTL2003.pdf</datasheet>
       <fields>
         <field name="PartNo">568-4232-5-ND</field>
@@ -327,6 +353,7 @@
     </comp>
     <comp ref="R203">
       <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="PartNo">311-10KARCT-ND</field>
         <field name="Mfg">Yaego</field>
@@ -338,6 +365,7 @@
     </comp>
     <comp ref="C202">
       <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="PartNo">1276-1007-1-ND</field>
         <field name="Mfg">Samsung Electro-Mechanics</field>
@@ -349,8 +377,9 @@
     </comp>
     <comp ref="R204">
       <value>200k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
-        <field name="PartNo">211-200KARCT-ND</field>
+        <field name="PartNo">311-200KARCT-ND</field>
         <field name="Mfg">Yaego</field>
         <field name="AssemblyVariant">1</field>
       </fields>
@@ -360,7 +389,7 @@
     </comp>
     <comp ref="IC203">
       <value>GTL2003PW</value>
-      <footprint>SOP65P640X110-20N</footprint>
+      <footprint>GTL2003PW:SOP65P640X110-20N</footprint>
       <datasheet>http://www.nxp.com/documents/data_sheet/GTL2003.pdf</datasheet>
       <fields>
         <field name="PartNo">568-4232-5-ND</field>
@@ -379,6 +408,7 @@
     </comp>
     <comp ref="R205">
       <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="PartNo">311-10KARCT-ND</field>
         <field name="Mfg">Yaego</field>
@@ -390,6 +420,7 @@
     </comp>
     <comp ref="C203">
       <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="PartNo">1276-1007-1-ND</field>
         <field name="Mfg">Samsung Electro-Mechanics</field>
@@ -401,6 +432,7 @@
     </comp>
     <comp ref="R206">
       <value>200k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="PartNo">311-200KARCT-ND</field>
         <field name="Mfg">Yaego</field>
@@ -412,7 +444,7 @@
     </comp>
     <comp ref="IC204">
       <value>GTL2003PW</value>
-      <footprint>SOP65P640X110-20N</footprint>
+      <footprint>GTL2003PW:SOP65P640X110-20N</footprint>
       <datasheet>http://www.nxp.com/documents/data_sheet/GTL2003.pdf</datasheet>
       <fields>
         <field name="PartNo">568-4232-5-ND</field>
@@ -431,6 +463,7 @@
     </comp>
     <comp ref="R207">
       <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="PartNo">311-10KARCT-ND</field>
         <field name="Mfg">Yaego</field>
@@ -442,6 +475,7 @@
     </comp>
     <comp ref="C204">
       <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="PartNo">1276-1007-1-ND</field>
         <field name="Mfg">Samsung Electro-Mechanics</field>
@@ -453,6 +487,7 @@
     </comp>
     <comp ref="R208">
       <value>200k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="PartNo">311-200KARCT-ND</field>
         <field name="Mfg">Yaego</field>
@@ -464,7 +499,7 @@
     </comp>
     <comp ref="IC205">
       <value>GTL2003PW</value>
-      <footprint>SOP65P640X110-20N</footprint>
+      <footprint>GTL2003PW:SOP65P640X110-20N</footprint>
       <datasheet>http://www.nxp.com/documents/data_sheet/GTL2003.pdf</datasheet>
       <fields>
         <field name="PartNo">568-4232-5-ND</field>
@@ -483,6 +518,7 @@
     </comp>
     <comp ref="R209">
       <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="PartNo">311-10KARCT-ND</field>
         <field name="Mfg">Yaego</field>
@@ -494,6 +530,7 @@
     </comp>
     <comp ref="C205">
       <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="PartNo">1276-1007-1-ND</field>
         <field name="Mfg">Samsung Electro-Mechanics</field>
@@ -505,6 +542,7 @@
     </comp>
     <comp ref="R210">
       <value>200k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="PartNo">311-200KARCT-ND</field>
         <field name="Mfg">Yaego</field>
@@ -516,6 +554,7 @@
     </comp>
     <comp ref="RN201">
       <value>10k</value>
+      <footprint>footprint:CAT_CAY16</footprint>
       <fields>
         <field name="PartNo">CAT16-103J4LFCT-ND</field>
         <field name="Mfg">Bourns Inc.</field>
@@ -527,6 +566,7 @@
     </comp>
     <comp ref="RN204">
       <value>10k</value>
+      <footprint>footprint:CAT_CAY16</footprint>
       <fields>
         <field name="PartNo">CAT16-103J4LFCT-ND</field>
         <field name="Mfg">Bourns Inc.</field>
@@ -538,6 +578,7 @@
     </comp>
     <comp ref="RN202">
       <value>10k</value>
+      <footprint>footprint:CAT_CAY16</footprint>
       <fields>
         <field name="PartNo">CAT16-103J4LFCT-ND</field>
         <field name="Mfg">Bourns Inc.</field>
@@ -549,6 +590,7 @@
     </comp>
     <comp ref="RN205">
       <value>10k</value>
+      <footprint>footprint:CAT_CAY16</footprint>
       <fields>
         <field name="PartNo">CAT16-103J4LFCT-ND</field>
         <field name="Mfg">Bourns Inc.</field>
@@ -560,6 +602,7 @@
     </comp>
     <comp ref="RN203">
       <value>10k</value>
+      <footprint>footprint:CAT_CAY16</footprint>
       <fields>
         <field name="PartNo">CAT16-103J4LFCT-ND</field>
         <field name="Mfg">Bourns Inc.</field>
@@ -571,6 +614,7 @@
     </comp>
     <comp ref="RN206">
       <value>10k</value>
+      <footprint>footprint:CAT_CAY16</footprint>
       <fields>
         <field name="PartNo">CAT16-103J4LFCT-ND</field>
         <field name="Mfg">Bourns Inc.</field>
@@ -582,6 +626,7 @@
     </comp>
     <comp ref="RN208">
       <value>10k</value>
+      <footprint>footprint:CAT_CAY16</footprint>
       <fields>
         <field name="PartNo">CAT16-103J4LFCT-ND</field>
         <field name="Mfg">Bourns Inc.</field>
@@ -593,6 +638,7 @@
     </comp>
     <comp ref="RN207">
       <value>10k</value>
+      <footprint>footprint:CAT_CAY16</footprint>
       <fields>
         <field name="PartNo">CAT16-103J4LFCT-ND</field>
         <field name="Mfg">Bourns Inc.</field>
@@ -604,6 +650,7 @@
     </comp>
     <comp ref="RN209">
       <value>10k</value>
+      <footprint>footprint:CAT_CAY16</footprint>
       <fields>
         <field name="PartNo">CAT16-103J4LFCT-ND</field>
         <field name="Mfg">Bourns Inc.</field>
@@ -615,6 +662,7 @@
     </comp>
     <comp ref="R211">
       <value>200k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="PartNo">311-200KARCT-ND</field>
         <field name="Mfg">Yaego</field>
@@ -626,6 +674,7 @@
     </comp>
     <comp ref="R212">
       <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="PartNo">311-10KARCT-ND</field>
         <field name="Mfg">Yaego</field>
@@ -815,8 +864,6 @@
       </fields>
     </libpart>
     <libpart lib="GTL2003PW" part="GTL2003PW">
-      <description>NXP - GTL2003PW - IC, GTL LO-VOLT TRANSLATOR, 20TSSOP</description>
-      <docs>http://www.nxp.com/documents/data_sheet/GTL2003.pdf</docs>
       <fields>
         <field name="Reference">IC</field>
         <field name="Value">GTL2003PW</field>
@@ -948,23 +995,23 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="GTL2003PW">
+      <uri>/home/alexander/projects/roesslersystems/bbb-parallel-cape/GTL2003PW.lib</uri>
+    </library>
     <library logical="switches">
       <uri>/usr/share/kicad/library/switches.lib</uri>
+    </library>
+    <library logical="bbb-parallel-cape-cache">
+      <uri>/home/alexander/projects/roesslersystems/bbb-parallel-cape/bbb-parallel-cape-cache.lib</uri>
     </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
     <library logical="bbb-parallel">
       <uri>/home/alexander/projects/roesslersystems/bbb-parallel-cape/library/bbb-parallel.lib</uri>
     </library>
-    <library logical="GTL2003PW">
-      <uri>/home/alexander/projects/roesslersystems/bbb-parallel-cape/GTL2003PW.lib</uri>
-    </library>
-    <library logical="bbb-parallel-cape-cache">
-      <uri>/home/alexander/projects/roesslersystems/bbb-parallel-cape/bbb-parallel-cape-cache.lib</uri>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
   </libraries>
   <nets>

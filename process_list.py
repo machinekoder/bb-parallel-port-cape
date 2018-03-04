@@ -20,18 +20,14 @@ with open(args.filename) as f:
     content2 = []
     newcontent = []
     parts = []
-    i = 0
-    for line in content:
+    for line in content[1:]:
         line = line.strip().replace('"', '')
-        i += 1
-        if (i == 1):
-            continue
 
         linedata = line.split(',')
         variant = linedata[6]
-        if (variants is not None) and (variant not in variants) or linedata[4] == 'None':
+        if (variants is not None) and (variant not in variants) or linedata[5] == 'None':
             continue
-        parts.append(linedata[5])
+        parts.append(linedata[4])
         content2.append(line)
 
     content = content2
@@ -63,11 +59,11 @@ with open(args.filename) as f:
         manufacturer = ''
         for line in content:
             linedata = line.split(',')
-            partname = linedata[5]
+            partname = linedata[4]
             if (partname == part):
                 names.append(linedata[0])
                 value = linedata[1]
-                manufacturer = linedata[4]
+                manufacturer = linedata[5]
                 count += 1
         sh.write(i + 1, 0, ' '.join(names))
         sh.write(i + 1, 1, value)

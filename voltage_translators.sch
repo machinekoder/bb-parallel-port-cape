@@ -66,9 +66,9 @@ F 12 "1.1" H 2100 -550 50  0001 C CNN "Height"
 	1    1250 1500
 	1    0    0    -1  
 $EndComp
-Text GLabel 1250 1700 0    50   Input ~ 0
+Text GLabel 1250 1700 0    50   BiDi ~ 0
 IO0_BB
-Text GLabel 2250 1800 2    50   Input ~ 0
+Text GLabel 2250 1800 2    50   BiDi ~ 0
 IO1
 $Comp
 L +3V3 #PWR040
@@ -134,33 +134,33 @@ F 6 "1" H 2350 1300 60  0001 C CNN "AssemblyVariant"
 	1    2350 1300
 	1    0    0    -1  
 $EndComp
-Text GLabel 2250 1900 2    50   Input ~ 0
+Text GLabel 2250 1900 2    50   BiDi ~ 0
 IO2
-Text GLabel 2250 2000 2    50   Input ~ 0
+Text GLabel 2250 2000 2    50   BiDi ~ 0
 IO3
-Text GLabel 2250 2100 2    50   Input ~ 0
+Text GLabel 2250 2100 2    50   BiDi ~ 0
 IO4
-Text GLabel 2250 2200 2    50   Input ~ 0
+Text GLabel 2250 2200 2    50   BiDi ~ 0
 IO5
-Text GLabel 2250 2300 2    50   Input ~ 0
+Text GLabel 2250 2300 2    50   BiDi ~ 0
 IO6
-Text GLabel 2250 2400 2    50   Input ~ 0
+Text GLabel 2250 2400 2    50   BiDi ~ 0
 IO7
-Text GLabel 2250 1700 2    50   Input ~ 0
+Text GLabel 2250 1700 2    50   BiDi ~ 0
 IO0
-Text GLabel 1250 1800 0    50   Input ~ 0
+Text GLabel 1250 1800 0    50   BiDi ~ 0
 IO1_BB
-Text GLabel 1250 1900 0    50   Input ~ 0
+Text GLabel 1250 1900 0    50   BiDi ~ 0
 IO2_BB
-Text GLabel 1250 2000 0    50   Input ~ 0
+Text GLabel 1250 2000 0    50   BiDi ~ 0
 IO3_BB
-Text GLabel 1250 2100 0    50   Input ~ 0
+Text GLabel 1250 2100 0    50   BiDi ~ 0
 IO4_BB
-Text GLabel 1250 2200 0    50   Input ~ 0
+Text GLabel 1250 2200 0    50   BiDi ~ 0
 IO5_BB
-Text GLabel 1250 2300 0    50   Input ~ 0
+Text GLabel 1250 2300 0    50   BiDi ~ 0
 IO6_BB
-Text GLabel 1250 2400 0    50   Input ~ 0
+Text GLabel 1250 2400 0    50   BiDi ~ 0
 IO7_BB
 $Comp
 L GTL2003PW IC202
@@ -182,9 +182,9 @@ F 12 "1.1" H 4500 -550 50  0001 C CNN "Height"
 	1    3650 1500
 	1    0    0    -1  
 $EndComp
-Text GLabel 3650 1700 0    50   Input ~ 0
+Text GLabel 3650 1700 0    50   BiDi ~ 0
 IO8_BB
-Text GLabel 4650 1800 2    50   Input ~ 0
+Text GLabel 4650 1800 2    50   BiDi ~ 0
 IO9
 $Comp
 L +3V3 #PWR042
@@ -244,39 +244,39 @@ F 0 "R204" V 4830 1300 50  0000 C CNN
 F 1 "200k" V 4750 1300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 4680 1300 50  0001 C CNN
 F 3 "" H 4750 1300 50  0000 C CNN
-F 4 "211-200KARCT-ND" H 4750 1300 60  0001 C CNN "PartNo"
+F 4 "311-200KARCT-ND" H 4750 1300 60  0001 C CNN "PartNo"
 F 5 "Yaego" H 4750 1300 60  0001 C CNN "Mfg"
 F 6 "1" H 4750 1300 60  0001 C CNN "AssemblyVariant"
 	1    4750 1300
 	1    0    0    -1  
 $EndComp
-Text GLabel 4650 1900 2    50   Input ~ 0
+Text GLabel 4650 1900 2    50   BiDi ~ 0
 IO10
-Text GLabel 4650 2000 2    50   Input ~ 0
+Text GLabel 4650 2000 2    50   BiDi ~ 0
 IO11
-Text GLabel 4650 2100 2    50   Input ~ 0
+Text GLabel 4650 2100 2    50   BiDi ~ 0
 IO12
-Text GLabel 4650 2200 2    50   Input ~ 0
+Text GLabel 4650 2200 2    50   BiDi ~ 0
 IO13
-Text GLabel 4650 2300 2    50   Input ~ 0
+Text GLabel 4650 2300 2    50   BiDi ~ 0
 IO14
-Text GLabel 4650 2400 2    50   Input ~ 0
+Text GLabel 4650 2400 2    50   BiDi ~ 0
 IO15
-Text GLabel 4650 1700 2    50   Input ~ 0
+Text GLabel 4650 1700 2    50   BiDi ~ 0
 IO8
-Text GLabel 3650 1800 0    50   Input ~ 0
+Text GLabel 3650 1800 0    50   BiDi ~ 0
 IO9_BB
-Text GLabel 3650 1900 0    50   Input ~ 0
+Text GLabel 3650 1900 0    50   BiDi ~ 0
 IO10_BB
-Text GLabel 3650 2000 0    50   Input ~ 0
+Text GLabel 3650 2000 0    50   BiDi ~ 0
 IO11_BB
-Text GLabel 3650 2100 0    50   Input ~ 0
+Text GLabel 3650 2100 0    50   BiDi ~ 0
 IO12_BB
-Text GLabel 3650 2200 0    50   Input ~ 0
+Text GLabel 3650 2200 0    50   BiDi ~ 0
 IO13_BB
-Text GLabel 3650 2300 0    50   Input ~ 0
+Text GLabel 3650 2300 0    50   BiDi ~ 0
 IO14_BB
-Text GLabel 3650 2400 0    50   Input ~ 0
+Text GLabel 3650 2400 0    50   BiDi ~ 0
 IO15_BB
 $Comp
 L GTL2003PW IC203
@@ -298,9 +298,9 @@ F 12 "1.1" H 6900 -550 50  0001 C CNN "Height"
 	1    6050 1500
 	1    0    0    -1  
 $EndComp
-Text GLabel 6050 1700 0    50   Input ~ 0
+Text GLabel 6050 1700 0    50   BiDi ~ 0
 IO16_BB
-Text GLabel 7050 1800 2    50   Input ~ 0
+Text GLabel 7050 1800 2    50   BiDi ~ 0
 IO17
 $Comp
 L +3V3 #PWR044
@@ -366,33 +366,33 @@ F 6 "1" H 7150 1300 60  0001 C CNN "AssemblyVariant"
 	1    7150 1300
 	1    0    0    -1  
 $EndComp
-Text GLabel 7050 1900 2    50   Input ~ 0
+Text GLabel 7050 1900 2    50   BiDi ~ 0
 IO18
-Text GLabel 7050 2000 2    50   Input ~ 0
+Text GLabel 7050 2000 2    50   BiDi ~ 0
 IO19
-Text GLabel 7050 2100 2    50   Input ~ 0
+Text GLabel 7050 2100 2    50   BiDi ~ 0
 IO20
-Text GLabel 7050 2200 2    50   Input ~ 0
+Text GLabel 7050 2200 2    50   BiDi ~ 0
 IO21
-Text GLabel 7050 2300 2    50   Input ~ 0
+Text GLabel 7050 2300 2    50   BiDi ~ 0
 IO22
-Text GLabel 7050 2400 2    50   Input ~ 0
+Text GLabel 7050 2400 2    50   BiDi ~ 0
 IO23
-Text GLabel 7050 1700 2    50   Input ~ 0
+Text GLabel 7050 1700 2    50   BiDi ~ 0
 IO16
-Text GLabel 6050 1800 0    50   Input ~ 0
+Text GLabel 6050 1800 0    50   BiDi ~ 0
 IO17_BB
-Text GLabel 6050 1900 0    50   Input ~ 0
+Text GLabel 6050 1900 0    50   BiDi ~ 0
 IO18_BB
-Text GLabel 6050 2000 0    50   Input ~ 0
+Text GLabel 6050 2000 0    50   BiDi ~ 0
 IO19_BB
-Text GLabel 6050 2100 0    50   Input ~ 0
+Text GLabel 6050 2100 0    50   BiDi ~ 0
 IO20_BB
-Text GLabel 6050 2200 0    50   Input ~ 0
+Text GLabel 6050 2200 0    50   BiDi ~ 0
 IO21_BB
-Text GLabel 6050 2300 0    50   Input ~ 0
+Text GLabel 6050 2300 0    50   BiDi ~ 0
 IO22_BB
-Text GLabel 6050 2400 0    50   Input ~ 0
+Text GLabel 6050 2400 0    50   BiDi ~ 0
 IO23_BB
 $Comp
 L GTL2003PW IC204
@@ -414,7 +414,7 @@ F 12 "1.1" H 2100 1750 50  0001 C CNN "Height"
 	1    1250 3800
 	1    0    0    -1  
 $EndComp
-Text GLabel 1250 4000 0    50   Input ~ 0
+Text GLabel 1250 4000 0    50   BiDi ~ 0
 IO24_BB
 Text GLabel 2250 4100 2    50   BiDi ~ 0
 IO25
@@ -482,33 +482,33 @@ F 6 "2" H 2350 3600 60  0001 C CNN "AssemblyVariant"
 	1    2350 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 2250 4200 2    50   Input ~ 0
+Text GLabel 2250 4200 2    50   BiDi ~ 0
 IO26
-Text GLabel 2250 4300 2    50   Input ~ 0
+Text GLabel 2250 4300 2    50   BiDi ~ 0
 IO27
-Text GLabel 2250 4400 2    50   Input ~ 0
+Text GLabel 2250 4400 2    50   BiDi ~ 0
 IO28
-Text GLabel 2250 4500 2    50   Input ~ 0
+Text GLabel 2250 4500 2    50   BiDi ~ 0
 IO29
-Text GLabel 2250 4600 2    50   Input ~ 0
+Text GLabel 2250 4600 2    50   BiDi ~ 0
 IO30
-Text GLabel 2250 4700 2    50   Input ~ 0
+Text GLabel 2250 4700 2    50   BiDi ~ 0
 IO31
 Text GLabel 2250 4000 2    50   BiDi ~ 0
 IO24
-Text GLabel 1250 4100 0    50   Input ~ 0
+Text GLabel 1250 4100 0    50   BiDi ~ 0
 IO25_BB
-Text GLabel 1250 4200 0    50   Input ~ 0
+Text GLabel 1250 4200 0    50   BiDi ~ 0
 IO26_BB
-Text GLabel 1250 4300 0    50   Input ~ 0
+Text GLabel 1250 4300 0    50   BiDi ~ 0
 IO27_BB
-Text GLabel 1250 4400 0    50   Input ~ 0
+Text GLabel 1250 4400 0    50   BiDi ~ 0
 IO28_BB
-Text GLabel 1250 4500 0    50   Input ~ 0
+Text GLabel 1250 4500 0    50   BiDi ~ 0
 IO29_BB
-Text GLabel 1250 4600 0    50   Input ~ 0
+Text GLabel 1250 4600 0    50   BiDi ~ 0
 IO30_BB
-Text GLabel 1250 4700 0    50   Input ~ 0
+Text GLabel 1250 4700 0    50   BiDi ~ 0
 IO31_BB
 $Comp
 L GTL2003PW IC205
@@ -530,9 +530,9 @@ F 12 "1.1" H 4500 1750 50  0001 C CNN "Height"
 	1    3650 3800
 	1    0    0    -1  
 $EndComp
-Text GLabel 3650 4000 0    50   Input ~ 0
+Text GLabel 3650 4000 0    50   BiDi ~ 0
 IO32_BB
-Text GLabel 4650 4100 2    50   Input ~ 0
+Text GLabel 4650 4100 2    50   BiDi ~ 0
 IO33
 $Comp
 L +3V3 #PWR048
@@ -598,9 +598,9 @@ F 6 "2" H 4750 3600 60  0001 C CNN "AssemblyVariant"
 	1    4750 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 4650 4000 2    50   Input ~ 0
+Text GLabel 4650 4000 2    50   BiDi ~ 0
 IO32
-Text GLabel 3650 4100 0    50   Input ~ 0
+Text GLabel 3650 4100 0    50   BiDi ~ 0
 IO33_BB
 NoConn ~ 3650 4200
 NoConn ~ 3650 4300
@@ -628,13 +628,13 @@ F 6 "1" H 8250 1650 60  0001 C CNN "AssemblyVariant"
 	1    8250 1650
 	0    1    1    0   
 $EndComp
-Text GLabel 8550 1450 2    50   Input ~ 0
+Text GLabel 8550 1450 2    50   UnSpc ~ 0
 IO0_BB
-Text GLabel 8550 1550 2    50   Input ~ 0
+Text GLabel 8550 1550 2    50   UnSpc ~ 0
 IO1_BB
-Text GLabel 8550 1650 2    50   Input ~ 0
+Text GLabel 8550 1650 2    50   UnSpc ~ 0
 IO2_BB
-Text GLabel 8550 1750 2    50   Input ~ 0
+Text GLabel 8550 1750 2    50   UnSpc ~ 0
 IO3_BB
 $Comp
 L R_Pack04 RN204
@@ -650,13 +650,13 @@ F 6 "1" H 8250 2500 60  0001 C CNN "AssemblyVariant"
 	1    8250 2500
 	0    1    1    0   
 $EndComp
-Text GLabel 8550 2300 2    50   Input ~ 0
+Text GLabel 8550 2300 2    50   UnSpc ~ 0
 IO4_BB
-Text GLabel 8550 2400 2    50   Input ~ 0
+Text GLabel 8550 2400 2    50   UnSpc ~ 0
 IO5_BB
-Text GLabel 8550 2500 2    50   Input ~ 0
+Text GLabel 8550 2500 2    50   UnSpc ~ 0
 IO6_BB
-Text GLabel 8550 2600 2    50   Input ~ 0
+Text GLabel 8550 2600 2    50   UnSpc ~ 0
 IO7_BB
 $Comp
 L R_Pack04 RN202
@@ -672,13 +672,13 @@ F 6 "1" H 9300 1650 60  0001 C CNN "AssemblyVariant"
 	1    9300 1650
 	0    1    1    0   
 $EndComp
-Text GLabel 9600 1450 2    50   Input ~ 0
+Text GLabel 9600 1450 2    50   UnSpc ~ 0
 IO8_BB
-Text GLabel 9600 1550 2    50   Input ~ 0
+Text GLabel 9600 1550 2    50   UnSpc ~ 0
 IO9_BB
-Text GLabel 9600 1650 2    50   Input ~ 0
+Text GLabel 9600 1650 2    50   UnSpc ~ 0
 IO10_BB
-Text GLabel 9600 1750 2    50   Input ~ 0
+Text GLabel 9600 1750 2    50   UnSpc ~ 0
 IO11_BB
 $Comp
 L R_Pack04 RN205
@@ -694,13 +694,13 @@ F 6 "1" H 9300 2500 60  0001 C CNN "AssemblyVariant"
 	1    9300 2500
 	0    1    1    0   
 $EndComp
-Text GLabel 9600 2300 2    50   Input ~ 0
+Text GLabel 9600 2300 2    50   UnSpc ~ 0
 IO12_BB
-Text GLabel 9600 2400 2    50   Input ~ 0
+Text GLabel 9600 2400 2    50   UnSpc ~ 0
 IO13_BB
-Text GLabel 9600 2500 2    50   Input ~ 0
+Text GLabel 9600 2500 2    50   UnSpc ~ 0
 IO14_BB
-Text GLabel 9600 2600 2    50   Input ~ 0
+Text GLabel 9600 2600 2    50   UnSpc ~ 0
 IO15_BB
 $Comp
 L R_Pack04 RN203
@@ -716,13 +716,13 @@ F 6 "1" H 10400 1700 60  0001 C CNN "AssemblyVariant"
 	1    10400 1700
 	0    1    1    0   
 $EndComp
-Text GLabel 10700 1500 2    50   Input ~ 0
+Text GLabel 10700 1500 2    50   UnSpc ~ 0
 IO16_BB
-Text GLabel 10700 1600 2    50   Input ~ 0
+Text GLabel 10700 1600 2    50   UnSpc ~ 0
 IO17_BB
-Text GLabel 10700 1700 2    50   Input ~ 0
+Text GLabel 10700 1700 2    50   UnSpc ~ 0
 IO18_BB
-Text GLabel 10700 1800 2    50   Input ~ 0
+Text GLabel 10700 1800 2    50   UnSpc ~ 0
 IO19_BB
 $Comp
 L R_Pack04 RN206
@@ -738,13 +738,13 @@ F 6 "2" H 8250 3950 60  0001 C CNN "AssemblyVariant"
 	1    8250 3950
 	0    1    1    0   
 $EndComp
-Text GLabel 8550 3750 2    50   Input ~ 0
+Text GLabel 8550 3750 2    50   UnSpc ~ 0
 IO20_BB
-Text GLabel 8550 3850 2    50   Input ~ 0
+Text GLabel 8550 3850 2    50   UnSpc ~ 0
 IO21_BB
-Text GLabel 8550 3950 2    50   Input ~ 0
+Text GLabel 8550 3950 2    50   UnSpc ~ 0
 IO22_BB
-Text GLabel 8550 4050 2    50   Input ~ 0
+Text GLabel 8550 4050 2    50   UnSpc ~ 0
 IO23_BB
 $Comp
 L R_Pack04 RN208
@@ -760,13 +760,13 @@ F 6 "2" H 8250 4800 60  0001 C CNN "AssemblyVariant"
 	1    8250 4800
 	0    1    1    0   
 $EndComp
-Text GLabel 8550 4600 2    50   Input ~ 0
+Text GLabel 8550 4600 2    50   UnSpc ~ 0
 IO24_BB
-Text GLabel 8550 4700 2    50   Input ~ 0
+Text GLabel 8550 4700 2    50   UnSpc ~ 0
 IO25_BB
-Text GLabel 8550 4800 2    50   Input ~ 0
+Text GLabel 8550 4800 2    50   UnSpc ~ 0
 IO26_BB
-Text GLabel 8550 4900 2    50   Input ~ 0
+Text GLabel 8550 4900 2    50   UnSpc ~ 0
 IO27_BB
 $Comp
 L R_Pack04 RN207
@@ -782,13 +782,13 @@ F 6 "2" H 9300 3950 60  0001 C CNN "AssemblyVariant"
 	1    9300 3950
 	0    1    1    0   
 $EndComp
-Text GLabel 9600 3750 2    50   Input ~ 0
+Text GLabel 9600 3750 2    50   UnSpc ~ 0
 IO28_BB
-Text GLabel 9600 3850 2    50   Input ~ 0
+Text GLabel 9600 3850 2    50   UnSpc ~ 0
 IO29_BB
-Text GLabel 9600 3950 2    50   Input ~ 0
+Text GLabel 9600 3950 2    50   UnSpc ~ 0
 IO30_BB
-Text GLabel 9600 4050 2    50   Input ~ 0
+Text GLabel 9600 4050 2    50   UnSpc ~ 0
 IO31_BB
 $Comp
 L R_Pack04 RN209
@@ -804,9 +804,9 @@ F 6 "2" H 9300 4800 60  0001 C CNN "AssemblyVariant"
 	1    9300 4800
 	0    1    1    0   
 $EndComp
-Text GLabel 9600 4600 2    50   Input ~ 0
+Text GLabel 9600 4600 2    50   UnSpc ~ 0
 IO32_BB
-Text GLabel 9600 4700 2    50   Input ~ 0
+Text GLabel 9600 4700 2    50   UnSpc ~ 0
 IO33_BB
 NoConn ~ 9600 4800
 NoConn ~ 9600 4900

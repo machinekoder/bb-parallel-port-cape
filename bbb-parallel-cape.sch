@@ -235,41 +235,41 @@ F 6 "1" H 6300 6000 60  0001 C CNN "AssemblyVariant"
 	1    6300 6000
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1950 2050 0    50   Input ~ 0
+Text GLabel 1950 2050 0    50   BiDi ~ 0
 IO7_BB
-Text GLabel 2650 2050 2    50   Input ~ 0
+Text GLabel 2650 2050 2    50   BiDi ~ 0
 IO28_BB
-Text GLabel 1950 2150 0    50   Input ~ 0
+Text GLabel 1950 2150 0    50   BiDi ~ 0
 IO10_BB
-Text GLabel 2650 2150 2    50   Input ~ 0
+Text GLabel 2650 2150 2    50   BiDi ~ 0
 IO19_BB
-Text GLabel 1950 2250 0    50   Input ~ 0
+Text GLabel 1950 2250 0    50   BiDi ~ 0
 IO21_BB
-Text GLabel 2650 2250 2    50   Input ~ 0
+Text GLabel 2650 2250 2    50   BiDi ~ 0
 IO29_BB
-Text GLabel 1950 2350 0    50   Input ~ 0
+Text GLabel 1950 2350 0    50   BiDi ~ 0
 IO13_BB
-Text GLabel 2650 2350 2    50   Input ~ 0
+Text GLabel 2650 2350 2    50   BiDi ~ 0
 IO3_BB
-Text GLabel 1950 2550 0    50   Input ~ 0
+Text GLabel 1950 2550 0    50   BiDi ~ 0
 IO11_BB
-Text GLabel 2650 2550 2    50   Input ~ 0
+Text GLabel 2650 2550 2    50   BiDi ~ 0
 IO12_BB
-Text GLabel 1950 2650 0    50   Input ~ 0
+Text GLabel 1950 2650 0    50   BiDi ~ 0
 IO17_BB
-Text GLabel 2650 2650 2    50   Input ~ 0
+Text GLabel 2650 2650 2    50   BiDi ~ 0
 IO30_BB
-Text GLabel 1950 2750 0    50   Input ~ 0
+Text GLabel 1950 2750 0    50   BiDi ~ 0
 IO9_BB
-Text GLabel 2650 2750 2    50   Input ~ 0
+Text GLabel 2650 2750 2    50   BiDi ~ 0
 IO1_BB
-Text GLabel 1950 2850 0    50   Input ~ 0
+Text GLabel 1950 2850 0    50   BiDi ~ 0
 IO31_BB
-Text GLabel 2650 2950 2    50   Input ~ 0
+Text GLabel 2650 2950 2    50   BiDi ~ 0
 IO18_BB
-Text GLabel 1950 3550 0    50   Input ~ 0
+Text GLabel 1950 3550 0    50   BiDi ~ 0
 IO16_BB
-Text GLabel 2650 3550 2    50   Input ~ 0
+Text GLabel 2650 3550 2    50   BiDi ~ 0
 IO5_BB
 NoConn ~ 1950 3150
 NoConn ~ 1950 3250
@@ -281,31 +281,31 @@ NoConn ~ 4400 1650
 NoConn ~ 4400 1750
 NoConn ~ 5100 1650
 NoConn ~ 5100 1750
-Text GLabel 4400 1850 0    50   Input ~ 0
+Text GLabel 4400 1850 0    50   BiDi ~ 0
 IO14_BB
-Text GLabel 5100 1850 2    50   Input ~ 0
+Text GLabel 5100 1850 2    50   BiDi ~ 0
 IO22_BB
-Text GLabel 4400 1950 0    50   Input ~ 0
+Text GLabel 4400 1950 0    50   BiDi ~ 0
 IO24_BB
-Text GLabel 5100 1950 2    50   Input ~ 0
+Text GLabel 5100 1950 2    50   BiDi ~ 0
 IO23_BB
-Text GLabel 4400 2050 0    50   Input ~ 0
+Text GLabel 4400 2050 0    50   BiDi ~ 0
 IO2_BB
-Text GLabel 5100 2050 2    50   Input ~ 0
+Text GLabel 5100 2050 2    50   BiDi ~ 0
 IO4_BB
-Text GLabel 4400 2150 0    50   Input ~ 0
+Text GLabel 4400 2150 0    50   BiDi ~ 0
 IO0_BB
-Text GLabel 5100 2150 2    50   Input ~ 0
+Text GLabel 5100 2150 2    50   BiDi ~ 0
 IO25_BB
-Text GLabel 4400 2250 0    50   Input ~ 0
+Text GLabel 4400 2250 0    50   BiDi ~ 0
 IO6_BB
-Text GLabel 5100 2250 2    50   Input ~ 0
+Text GLabel 5100 2250 2    50   BiDi ~ 0
 IO8_BB
-Text GLabel 4400 2350 0    50   Input ~ 0
+Text GLabel 4400 2350 0    50   BiDi ~ 0
 IO26_BB
-Text GLabel 5100 2350 2    50   Input ~ 0
+Text GLabel 5100 2350 2    50   BiDi ~ 0
 IO27_BB
-Text GLabel 4400 2450 0    50   Input ~ 0
+Text GLabel 4400 2450 0    50   BiDi ~ 0
 IO15_BB
 NoConn ~ 5100 2450
 NoConn ~ 4400 2550
@@ -334,55 +334,41 @@ NoConn ~ 4400 3250
 NoConn ~ 4400 3150
 NoConn ~ 4400 3050
 NoConn ~ 4400 2950
-$Comp
-L DB25 J101
-U 1 1 5A2CEEC3
-P 10350 2100
-F 0 "J101" H 10400 3450 50  0000 C CNN
-F 1 "DB25" H 10300 750 50  0000 C CNN
-F 2 "" H 10350 2100 50  0001 C CNN
-F 3 "" H 10350 2100 50  0000 C CNN
-F 4 "1175-1816-ND" H 10350 2100 60  0001 C CNN "PartNo"
-F 5 "CNC Tech" H 10350 2100 60  0001 C CNN "Mfg"
-F 6 "1" H 10350 2100 60  0001 C CNN "AssemblyVariant"
-	1    10350 2100
-	1    0    0    -1  
-$EndComp
-Text GLabel 9750 3300 0    50   Input ~ 0
+Text GLabel 9750 900  0    50   BiDi ~ 0
 IO0
-Text GLabel 9750 900  0    50   Input ~ 0
+Text GLabel 9750 3300 0    50   BiDi ~ 0
 IO16
-Text GLabel 9750 1100 0    50   Input ~ 0
+Text GLabel 9750 3100 0    50   BiDi ~ 0
 IO15
-Text GLabel 9750 1300 0    50   Input ~ 0
+Text GLabel 9750 2900 0    50   BiDi ~ 0
 IO14
-Text GLabel 9750 1500 0    50   Input ~ 0
+Text GLabel 9750 2700 0    50   BiDi ~ 0
 IO13
-Text GLabel 9750 1700 0    50   Input ~ 0
+Text GLabel 9750 2500 0    50   BiDi ~ 0
 IO12
-Text GLabel 9750 1900 0    50   Input ~ 0
+Text GLabel 9750 2300 0    50   BiDi ~ 0
 IO11
-Text GLabel 9750 2100 0    50   Input ~ 0
+Text GLabel 9750 2100 0    50   BiDi ~ 0
 IO10
-Text GLabel 9750 2300 0    50   Input ~ 0
+Text GLabel 9750 1900 0    50   BiDi ~ 0
 IO9
-Text GLabel 9750 2500 0    50   Input ~ 0
+Text GLabel 9750 1700 0    50   BiDi ~ 0
 IO8
-Text GLabel 9750 2700 0    50   Input ~ 0
+Text GLabel 9750 1500 0    50   BiDi ~ 0
 IO6
-Text GLabel 9750 2900 0    50   Input ~ 0
+Text GLabel 9750 1300 0    50   BiDi ~ 0
 IO4
-Text GLabel 9750 3100 0    50   Input ~ 0
+Text GLabel 9750 1100 0    50   BiDi ~ 0
 IO2
-Text GLabel 9750 3200 0    50   Input ~ 0
+Text GLabel 9750 1000 0    50   BiDi ~ 0
 IO1
-Text GLabel 9750 3000 0    50   Input ~ 0
+Text GLabel 9750 1200 0    50   BiDi ~ 0
 IO3
-Text GLabel 9750 2800 0    50   Input ~ 0
+Text GLabel 9750 1400 0    50   BiDi ~ 0
 IO5
-Text GLabel 9750 2600 0    50   Input ~ 0
+Text GLabel 9750 1600 0    50   BiDi ~ 0
 IO7
-Text GLabel 9150 1600 0    50   UnSpc ~ 0
+Text GLabel 9150 2600 0    50   UnSpc ~ 0
 GND_OR_5V
 $Comp
 L CONN_02X13 P101
@@ -398,39 +384,39 @@ F 6 "1" H 7750 1500 60  0001 C CNN "AssemblyVariant"
 	1    7750 1500
 	1    0    0    -1  
 $EndComp
-Text GLabel 7400 900  0    50   Input ~ 0
+Text GLabel 7400 900  0    50   BiDi ~ 0
 IO0
-Text GLabel 8100 900  2    50   Input ~ 0
+Text GLabel 8100 900  2    50   BiDi ~ 0
 IO1
-Text GLabel 8100 1000 2    50   Input ~ 0
+Text GLabel 8100 1000 2    50   BiDi ~ 0
 IO3
-Text GLabel 8100 1100 2    50   Input ~ 0
+Text GLabel 8100 1100 2    50   BiDi ~ 0
 IO5
-Text GLabel 8100 1200 2    50   Input ~ 0
+Text GLabel 8100 1200 2    50   BiDi ~ 0
 IO7
-Text GLabel 7400 1000 0    50   Input ~ 0
+Text GLabel 7400 1000 0    50   BiDi ~ 0
 IO2
-Text GLabel 7400 1100 0    50   Input ~ 0
+Text GLabel 7400 1100 0    50   BiDi ~ 0
 IO4
-Text GLabel 7400 1200 0    50   Input ~ 0
+Text GLabel 7400 1200 0    50   BiDi ~ 0
 IO6
-Text GLabel 7400 1300 0    50   Input ~ 0
+Text GLabel 7400 1300 0    50   BiDi ~ 0
 IO8
-Text GLabel 7400 1400 0    50   Input ~ 0
+Text GLabel 7400 1400 0    50   BiDi ~ 0
 IO9
-Text GLabel 7400 1500 0    50   Input ~ 0
+Text GLabel 7400 1500 0    50   BiDi ~ 0
 IO10
-Text GLabel 7400 1600 0    50   Input ~ 0
+Text GLabel 7400 1600 0    50   BiDi ~ 0
 IO11
-Text GLabel 7400 1700 0    50   Input ~ 0
+Text GLabel 7400 1700 0    50   BiDi ~ 0
 IO12
-Text GLabel 7400 1800 0    50   Input ~ 0
+Text GLabel 7400 1800 0    50   BiDi ~ 0
 IO13
-Text GLabel 7400 1900 0    50   Input ~ 0
+Text GLabel 7400 1900 0    50   BiDi ~ 0
 IO14
-Text GLabel 7400 2000 0    50   Input ~ 0
+Text GLabel 7400 2000 0    50   BiDi ~ 0
 IO15
-Text GLabel 7400 2100 0    50   Input ~ 0
+Text GLabel 7400 2100 0    50   BiDi ~ 0
 IO16
 Text GLabel 8200 2100 2    50   UnSpc ~ 0
 GND_OR_5V
@@ -454,39 +440,39 @@ F 6 "2" H 7750 4500 60  0001 C CNN "AssemblyVariant"
 	1    7750 4500
 	1    0    0    -1  
 $EndComp
-Text GLabel 7400 3900 0    50   Input ~ 0
+Text GLabel 7400 3900 0    50   BiDi ~ 0
 IO17
-Text GLabel 8100 3900 2    50   Input ~ 0
+Text GLabel 8100 3900 2    50   BiDi ~ 0
 IO18
-Text GLabel 8100 4000 2    50   Input ~ 0
+Text GLabel 8100 4000 2    50   BiDi ~ 0
 IO20
-Text GLabel 8100 4100 2    50   Input ~ 0
+Text GLabel 8100 4100 2    50   BiDi ~ 0
 IO22
-Text GLabel 8100 4200 2    50   Input ~ 0
+Text GLabel 8100 4200 2    50   BiDi ~ 0
 IO24
-Text GLabel 7400 4000 0    50   Input ~ 0
+Text GLabel 7400 4000 0    50   BiDi ~ 0
 IO19
-Text GLabel 7400 4100 0    50   Input ~ 0
+Text GLabel 7400 4100 0    50   BiDi ~ 0
 IO21
-Text GLabel 7400 4200 0    50   Input ~ 0
+Text GLabel 7400 4200 0    50   BiDi ~ 0
 IO23
-Text GLabel 7400 4300 0    50   Input ~ 0
+Text GLabel 7400 4300 0    50   BiDi ~ 0
 IO25
-Text GLabel 7400 4400 0    50   Input ~ 0
+Text GLabel 7400 4400 0    50   BiDi ~ 0
 IO26
-Text GLabel 7400 4500 0    50   Input ~ 0
+Text GLabel 7400 4500 0    50   BiDi ~ 0
 IO27
-Text GLabel 7400 4600 0    50   Input ~ 0
+Text GLabel 7400 4600 0    50   BiDi ~ 0
 IO28
-Text GLabel 7400 4700 0    50   Input ~ 0
+Text GLabel 7400 4700 0    50   BiDi ~ 0
 IO29
-Text GLabel 7400 4800 0    50   Input ~ 0
+Text GLabel 7400 4800 0    50   BiDi ~ 0
 IO30
-Text GLabel 7400 4900 0    50   Input ~ 0
+Text GLabel 7400 4900 0    50   BiDi ~ 0
 IO31
-Text GLabel 7400 5000 0    50   Input ~ 0
+Text GLabel 7400 5000 0    50   BiDi ~ 0
 IO32
-Text GLabel 7400 5100 0    50   Input ~ 0
+Text GLabel 7400 5100 0    50   BiDi ~ 0
 IO33
 Text GLabel 8200 5100 2    50   UnSpc ~ 0
 GND_OR_5V
@@ -495,7 +481,7 @@ L DB25 J102
 U 1 1 5A2E02DC
 P 10350 5000
 F 0 "J102" H 10400 6350 50  0000 C CNN
-F 1 "DB25" H 10300 3650 50  0000 C CNN
+F 1 "DB25M" H 10300 3650 50  0000 C CNN
 F 2 "" H 10350 5000 50  0001 C CNN
 F 3 "" H 10350 5000 50  0000 C CNN
 F 4 "1175-1815-ND" H 10350 5000 60  0001 C CNN "PartNo"
@@ -504,39 +490,39 @@ F 6 "2" H 10350 5000 60  0001 C CNN "AssemblyVariant"
 	1    10350 5000
 	1    0    0    -1  
 $EndComp
-Text GLabel 9750 6200 0    50   Input ~ 0
+Text GLabel 9750 6200 0    50   BiDi ~ 0
 IO17
-Text GLabel 9750 3800 0    50   Input ~ 0
+Text GLabel 9750 3800 0    50   BiDi ~ 0
 IO33
-Text GLabel 9750 4000 0    50   Input ~ 0
+Text GLabel 9750 4000 0    50   BiDi ~ 0
 IO32
-Text GLabel 9750 4200 0    50   Input ~ 0
+Text GLabel 9750 4200 0    50   BiDi ~ 0
 IO31
-Text GLabel 9750 4400 0    50   Input ~ 0
+Text GLabel 9750 4400 0    50   BiDi ~ 0
 IO30
-Text GLabel 9750 4600 0    50   Input ~ 0
+Text GLabel 9750 4600 0    50   BiDi ~ 0
 IO29
-Text GLabel 9750 4800 0    50   Input ~ 0
+Text GLabel 9750 4800 0    50   BiDi ~ 0
 IO28
-Text GLabel 9750 5000 0    50   Input ~ 0
+Text GLabel 9750 5000 0    50   BiDi ~ 0
 IO27
-Text GLabel 9750 5200 0    50   Input ~ 0
+Text GLabel 9750 5200 0    50   BiDi ~ 0
 IO26
-Text GLabel 9750 5400 0    50   Input ~ 0
+Text GLabel 9750 5400 0    50   BiDi ~ 0
 IO25
-Text GLabel 9750 5600 0    50   Input ~ 0
+Text GLabel 9750 5600 0    50   BiDi ~ 0
 IO23
-Text GLabel 9750 5800 0    50   Input ~ 0
+Text GLabel 9750 5800 0    50   BiDi ~ 0
 IO21
-Text GLabel 9750 6000 0    50   Input ~ 0
+Text GLabel 9750 6000 0    50   BiDi ~ 0
 IO19
-Text GLabel 9750 6100 0    50   Input ~ 0
+Text GLabel 9750 6100 0    50   BiDi ~ 0
 IO18
-Text GLabel 9750 5900 0    50   Input ~ 0
+Text GLabel 9750 5900 0    50   BiDi ~ 0
 IO20
-Text GLabel 9750 5700 0    50   Input ~ 0
+Text GLabel 9750 5700 0    50   BiDi ~ 0
 IO22
-Text GLabel 9750 5500 0    50   Input ~ 0
+Text GLabel 9750 5500 0    50   BiDi ~ 0
 IO24
 Text GLabel 9150 4500 0    50   UnSpc ~ 0
 GND_OR_5V
@@ -609,14 +595,14 @@ F 6 "1" H 3300 5550 60  0001 C CNN "AssemblyVariant"
 	1    3300 5550
 	1    0    0    -1  
 $EndComp
-Text GLabel 3700 5550 2    50   Input ~ 0
+Text GLabel 3700 5550 2    50   Output ~ 0
 PWR_BUT
 NoConn ~ 4400 2850
-Text GLabel 2650 2850 2    50   Input ~ 0
+Text GLabel 2650 2850 2    50   BiDi ~ 0
 IO32_BB
-Text GLabel 1950 2950 0    50   Input ~ 0
+Text GLabel 1950 2950 0    50   BiDi ~ 0
 IO33_BB
-Text GLabel 1950 3050 0    50   Input ~ 0
+Text GLabel 1950 3050 0    50   BiDi ~ 0
 IO20_BB
 Text GLabel 1300 6100 0    50   UnSpc ~ 0
 GND_OR_5V
@@ -645,7 +631,7 @@ F 6 "1" H 3300 6000 60  0001 C CNN "AssemblyVariant"
 	1    3300 6000
 	1    0    0    -1  
 $EndComp
-Text GLabel 3700 6000 2    50   Input ~ 0
+Text GLabel 3700 6000 2    50   Output ~ 0
 SYS_RESETn
 $Comp
 L Q_NJFET_GDS Q101
@@ -754,13 +740,13 @@ $EndComp
 $Comp
 L GNDD #PWR024
 U 1 1 5A310346
-P 9250 2550
-F 0 "#PWR024" H 9250 2300 50  0001 C CNN
-F 1 "GNDD" H 9250 2400 50  0000 C CNN
-F 2 "" H 9250 2550 60  0000 C CNN
-F 3 "" H 9250 2550 60  0000 C CNN
-	1    9250 2550
-	1    0    0    -1  
+P 9250 1650
+F 0 "#PWR024" H 9250 1400 50  0001 C CNN
+F 1 "GNDD" H 9250 1500 50  0000 C CNN
+F 2 "" H 9250 1650 60  0000 C CNN
+F 3 "" H 9250 1650 60  0000 C CNN
+	1    9250 1650
+	1    0    0    1   
 $EndComp
 $Comp
 L GNDD #PWR025
@@ -822,9 +808,9 @@ F 3 "" H 2850 6850 60  0000 C CNN
 	1    2850 6850
 	1    0    0    -1  
 $EndComp
-Text GLabel 3700 6500 2    50   Input ~ 0
+Text GLabel 3700 6500 2    50   Output ~ 0
 PWR_BUT
-Text GLabel 3700 6600 2    50   Input ~ 0
+Text GLabel 3700 6600 2    50   Output ~ 0
 SYS_RESETn
 $Comp
 L SYS_5V #PWR027
@@ -854,10 +840,10 @@ F 6 "1" H 1700 5950 60  0001 C CNN "AssemblyVariant"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Light_Pipe_2_LED Z105
+L Light_Pipe_2_LED Z106
 U 1 1 5A5ABB3F
 P 5900 7200
-F 0 "Z105" H 5900 7500 60  0000 C CNN
+F 0 "Z106" H 5900 7500 60  0000 C CNN
 F 1 "Light_Pipe_2_LED" H 5900 7100 60  0000 C CNN
 F 2 "footprint:515-1114F" H 5900 7200 60  0001 C CNN
 F 3 "" H 5900 7200 60  0001 C CNN
@@ -875,7 +861,7 @@ Text Notes 8400 3750 0    60   ~ 0
 DB25/IDC26 Port2
 Text Notes 5600 800  0    60   ~ 0
 BeagleBone Interface
-Text Notes 7050 3250 0    60   ~ 0
+Text Notes 7000 3250 0    60   ~ 0
 J1 is connected to P1 via ribbon cable
 $Comp
 L GENERIC_BLOCK Z101
@@ -885,7 +871,7 @@ F 0 "Z101" H 7750 3100 60  0000 C CNN
 F 1 "GENERIC_BLOCK" H 7500 2450 60  0001 C CNN
 F 2 "" H 7500 2800 60  0001 C CNN
 F 3 "" H 7500 2800 60  0001 C CNN
-F 4 "1175-1625-ND" H 7500 2800 60  0001 C CNN "PartNo"
+F 4 "1175-1444-ND" H 7500 2800 60  0001 C CNN "PartNo"
 F 5 "CNC Tech" H 7500 2800 60  0001 C CNN "Mfg"
 F 6 "1" H 7500 2800 60  0001 C CNN "AssemblyVariant"
 	1    7500 2800
@@ -921,7 +907,7 @@ F 0 "Z103" H 7750 6000 60  0000 C CNN
 F 1 "GENERIC_BLOCK" H 7500 5350 60  0001 C CNN
 F 2 "" H 7500 5700 60  0001 C CNN
 F 3 "" H 7500 5700 60  0001 C CNN
-F 4 "1175-1625-ND" H 7500 5700 60  0001 C CNN "PartNo"
+F 4 "1175-1444-ND" H 7500 5700 60  0001 C CNN "PartNo"
 F 5 "CNC Tech" H 7500 5700 60  0001 C CNN "Mfg"
 F 6 "2" H 7500 5700 60  0001 C CNN "AssemblyVariant"
 	1    7500 5700
@@ -1219,65 +1205,65 @@ Wire Wire Line
 Wire Wire Line
 	4500 3750 4400 3750
 Wire Wire Line
-	9900 900  9750 900 
-Wire Wire Line
-	9900 1100 9750 1100
-Wire Wire Line
-	9900 1300 9750 1300
-Wire Wire Line
-	9900 1500 9750 1500
-Wire Wire Line
-	9900 1700 9750 1700
-Wire Wire Line
-	9750 1900 9900 1900
-Wire Wire Line
-	9900 2100 9750 2100
-Wire Wire Line
-	9900 2300 9750 2300
-Wire Wire Line
-	9900 2500 9750 2500
-Wire Wire Line
-	9900 2700 9750 2700
-Wire Wire Line
-	9900 2900 9750 2900
+	9900 3300 9750 3300
 Wire Wire Line
 	9900 3100 9750 3100
 Wire Wire Line
-	9900 3300 9750 3300
-Connection ~ 9250 2400
-Connection ~ 9250 2200
+	9900 2900 9750 2900
+Wire Wire Line
+	9900 2700 9750 2700
+Wire Wire Line
+	9900 2500 9750 2500
+Wire Wire Line
+	9750 2300 9900 2300
+Wire Wire Line
+	9900 2100 9750 2100
+Wire Wire Line
+	9900 1900 9750 1900
+Wire Wire Line
+	9900 1700 9750 1700
+Wire Wire Line
+	9900 1500 9750 1500
+Wire Wire Line
+	9900 1300 9750 1300
+Wire Wire Line
+	9900 1100 9750 1100
+Wire Wire Line
+	9900 900  9750 900 
+Connection ~ 9250 1800
 Connection ~ 9250 2000
-Connection ~ 9250 1400
-Connection ~ 9250 1200
+Connection ~ 9250 2200
+Connection ~ 9250 2800
+Connection ~ 9250 3000
 Wire Wire Line
-	9900 3200 9750 3200
+	9900 1000 9750 1000
 Wire Wire Line
-	9900 3000 9750 3000
+	9900 1200 9750 1200
 Wire Wire Line
-	9900 2800 9750 2800
+	9900 1400 9750 1400
 Wire Wire Line
-	9900 2600 9750 2600
-Wire Wire Line
-	9250 2400 9900 2400
-Wire Wire Line
-	9250 2200 9900 2200
-Wire Wire Line
-	9250 2000 9900 2000
+	9900 1600 9750 1600
 Wire Wire Line
 	9250 1800 9900 1800
 Wire Wire Line
-	9250 1400 9900 1400
+	9250 2000 9900 2000
 Wire Wire Line
-	9900 1200 9250 1200
+	9250 2200 9900 2200
 Wire Wire Line
-	9900 1000 9250 1000
+	9250 2400 9900 2400
 Wire Wire Line
-	9250 1000 9250 1600
+	9250 2800 9900 2800
 Wire Wire Line
-	9250 1800 9250 2550
-Connection ~ 9250 1600
+	9900 3000 9250 3000
 Wire Wire Line
-	9150 1600 9900 1600
+	9900 3200 9250 3200
+Wire Wire Line
+	9250 3200 9250 2600
+Wire Wire Line
+	9250 2400 9250 1650
+Connection ~ 9250 2600
+Wire Wire Line
+	9150 2600 9900 2600
 Wire Wire Line
 	8000 900  8100 900 
 Wire Wire Line
@@ -1699,4 +1685,31 @@ I2C2_SCL
 NoConn ~ 2550 2450
 NoConn ~ 2050 2450
 NoConn ~ 3750 -350
+$Comp
+L GENERIC_BLOCK Z105
+U 1 1 5A7F4738
+P 4850 5500
+F 0 "Z105" H 5100 5800 60  0000 C CNN
+F 1 "GENERIC_BLOCK" H 4850 5150 60  0001 C CNN
+F 2 "" H 4850 5500 60  0001 C CNN
+F 3 "" H 4850 5500 60  0001 C CNN
+F 4 "EG2041-ND" H 4850 5500 60  0001 C CNN "PartNo"
+F 5 "E-Switch" H 4850 5500 60  0001 C CNN "Mfg"
+F 6 "1" H 4850 5500 60  0001 C CNN "AssemblyVariant"
+	1    4850 5500
+	1    0    0    -1  
+$EndComp
+Text Notes 4550 5600 0    60   ~ 0
+External \nPower Button
+$Comp
+L DB25F J101
+U 1 1 5A9C066F
+P 10350 2100
+F 0 "J101" H 10400 3450 50  0000 C CNN
+F 1 "DB25F" H 10300 750 50  0000 C CNN
+F 2 "" H 10350 2100 50  0000 C CNN
+F 3 "" H 10350 2100 50  0000 C CNN
+	1    10350 2100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
