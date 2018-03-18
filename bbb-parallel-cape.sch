@@ -39,8 +39,8 @@ encoding utf-8
 Sheet 1 2
 Title "BeagleBone Parallel Port Cape"
 Date ""
-Rev "1"
-Comp "Rössler Systems"
+Rev "1.1"
+Comp "Machine Koder"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -659,16 +659,16 @@ F 3 "" H 5600 5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2050 6100 2    50   UnSpc ~ 0
-PU_OR_PD
+PULLUP_REF
 $Comp
 L GNDD #PWR017
 U 1 1 5A30FF02
-P 1650 6550
-F 0 "#PWR017" H 1650 6300 50  0001 C CNN
-F 1 "GNDD" H 1650 6400 50  0000 C CNN
-F 2 "" H 1650 6550 60  0000 C CNN
-F 3 "" H 1650 6550 60  0000 C CNN
-	1    1650 6550
+P 1550 6550
+F 0 "#PWR017" H 1550 6300 50  0001 C CNN
+F 1 "GNDD" H 1550 6400 50  0000 C CNN
+F 2 "" H 1550 6550 60  0000 C CNN
+F 3 "" H 1550 6550 60  0000 C CNN
+	1    1550 6550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1538,15 +1538,6 @@ Wire Wire Line
 	1650 5750 1650 5650
 Connection ~ 1650 5750
 Wire Wire Line
-	1550 6350 1550 6450
-Wire Wire Line
-	1550 6450 1750 6450
-Wire Wire Line
-	1750 6450 1750 6350
-Wire Wire Line
-	1650 6450 1650 6550
-Connection ~ 1650 6450
-Wire Wire Line
 	1300 6100 1450 6100
 Wire Wire Line
 	1850 6100 2050 6100
@@ -1712,4 +1703,23 @@ F 3 "" H 10350 2100 50  0000 C CNN
 	1    10350 2100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1550 6350 1550 6550
+$Comp
+L +3V3 #PWR?
+U 1 1 5A9CB293
+P 2000 6550
+F 0 "#PWR?" H 2000 6400 50  0001 C CNN
+F 1 "+3V3" H 2000 6690 50  0000 C CNN
+F 2 "" H 2000 6550 60  0000 C CNN
+F 3 "" H 2000 6550 60  0000 C CNN
+	1    2000 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 6650 2000 6650
+Wire Wire Line
+	2000 6650 2000 6550
+Wire Wire Line
+	1750 6350 1750 6650
 $EndSCHEMATC

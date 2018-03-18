@@ -37,10 +37,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title ""
+Title "BeagleBone Parallel Port Cape"
 Date ""
-Rev ""
-Comp ""
+Rev "1.1"
+Comp "Machine Koder"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -628,14 +628,14 @@ F 6 "1" H 8250 1650 60  0001 C CNN "AssemblyVariant"
 	1    8250 1650
 	0    1    1    0   
 $EndComp
-Text GLabel 8550 1450 2    50   UnSpc ~ 0
-IO0_BB
-Text GLabel 8550 1550 2    50   UnSpc ~ 0
-IO1_BB
-Text GLabel 8550 1650 2    50   UnSpc ~ 0
-IO2_BB
 Text GLabel 8550 1750 2    50   UnSpc ~ 0
-IO3_BB
+IO0
+Text GLabel 8550 1650 2    50   UnSpc ~ 0
+IO1
+Text GLabel 8550 1550 2    50   UnSpc ~ 0
+IO2
+Text GLabel 8550 1450 2    50   UnSpc ~ 0
+IO3
 $Comp
 L R_Pack04 RN204
 U 1 1 5A2E5F82
@@ -650,14 +650,14 @@ F 6 "1" H 8250 2500 60  0001 C CNN "AssemblyVariant"
 	1    8250 2500
 	0    1    1    0   
 $EndComp
-Text GLabel 8550 2300 2    50   UnSpc ~ 0
-IO4_BB
-Text GLabel 8550 2400 2    50   UnSpc ~ 0
-IO5_BB
-Text GLabel 8550 2500 2    50   UnSpc ~ 0
-IO6_BB
 Text GLabel 8550 2600 2    50   UnSpc ~ 0
-IO7_BB
+IO4
+Text GLabel 8550 2500 2    50   UnSpc ~ 0
+IO5
+Text GLabel 8550 2400 2    50   UnSpc ~ 0
+IO6
+Text GLabel 8550 2300 2    50   UnSpc ~ 0
+IO7
 $Comp
 L R_Pack04 RN202
 U 1 1 5A3001A5
@@ -672,14 +672,14 @@ F 6 "1" H 9300 1650 60  0001 C CNN "AssemblyVariant"
 	1    9300 1650
 	0    1    1    0   
 $EndComp
-Text GLabel 9600 1450 2    50   UnSpc ~ 0
-IO8_BB
-Text GLabel 9600 1550 2    50   UnSpc ~ 0
-IO9_BB
-Text GLabel 9600 1650 2    50   UnSpc ~ 0
-IO10_BB
 Text GLabel 9600 1750 2    50   UnSpc ~ 0
-IO11_BB
+IO8
+Text GLabel 9600 1650 2    50   UnSpc ~ 0
+IO9
+Text GLabel 9600 1550 2    50   UnSpc ~ 0
+IO10
+Text GLabel 9600 1450 2    50   UnSpc ~ 0
+IO11
 $Comp
 L R_Pack04 RN205
 U 1 1 5A3001C4
@@ -694,14 +694,14 @@ F 6 "1" H 9300 2500 60  0001 C CNN "AssemblyVariant"
 	1    9300 2500
 	0    1    1    0   
 $EndComp
-Text GLabel 9600 2300 2    50   UnSpc ~ 0
-IO12_BB
-Text GLabel 9600 2400 2    50   UnSpc ~ 0
-IO13_BB
-Text GLabel 9600 2500 2    50   UnSpc ~ 0
-IO14_BB
 Text GLabel 9600 2600 2    50   UnSpc ~ 0
-IO15_BB
+IO12
+Text GLabel 9600 2500 2    50   UnSpc ~ 0
+IO13
+Text GLabel 9600 2400 2    50   UnSpc ~ 0
+IO14
+Text GLabel 9600 2300 2    50   UnSpc ~ 0
+IO15
 $Comp
 L R_Pack04 RN203
 U 1 1 5A300A60
@@ -716,14 +716,14 @@ F 6 "1" H 10400 1700 60  0001 C CNN "AssemblyVariant"
 	1    10400 1700
 	0    1    1    0   
 $EndComp
-Text GLabel 10700 1500 2    50   UnSpc ~ 0
-IO16_BB
-Text GLabel 10700 1600 2    50   UnSpc ~ 0
-IO17_BB
-Text GLabel 10700 1700 2    50   UnSpc ~ 0
-IO18_BB
 Text GLabel 10700 1800 2    50   UnSpc ~ 0
-IO19_BB
+IO16
+Text GLabel 10700 1700 2    50   UnSpc ~ 0
+IO17
+Text GLabel 10700 1600 2    50   UnSpc ~ 0
+IO18
+Text GLabel 10700 1500 2    50   UnSpc ~ 0
+IO19
 $Comp
 L R_Pack04 RN206
 U 1 1 5A300A7F
@@ -738,14 +738,14 @@ F 6 "2" H 8250 3950 60  0001 C CNN "AssemblyVariant"
 	1    8250 3950
 	0    1    1    0   
 $EndComp
-Text GLabel 8550 3750 2    50   UnSpc ~ 0
-IO20_BB
-Text GLabel 8550 3850 2    50   UnSpc ~ 0
-IO21_BB
-Text GLabel 8550 3950 2    50   UnSpc ~ 0
-IO22_BB
 Text GLabel 8550 4050 2    50   UnSpc ~ 0
-IO23_BB
+IO20
+Text GLabel 8550 3950 2    50   UnSpc ~ 0
+IO21
+Text GLabel 8550 3850 2    50   UnSpc ~ 0
+IO22
+Text GLabel 8550 3750 2    50   UnSpc ~ 0
+IO23
 $Comp
 L R_Pack04 RN208
 U 1 1 5A300F36
@@ -760,14 +760,14 @@ F 6 "2" H 8250 4800 60  0001 C CNN "AssemblyVariant"
 	1    8250 4800
 	0    1    1    0   
 $EndComp
-Text GLabel 8550 4600 2    50   UnSpc ~ 0
-IO24_BB
-Text GLabel 8550 4700 2    50   UnSpc ~ 0
-IO25_BB
-Text GLabel 8550 4800 2    50   UnSpc ~ 0
-IO26_BB
 Text GLabel 8550 4900 2    50   UnSpc ~ 0
-IO27_BB
+IO24
+Text GLabel 8550 4800 2    50   UnSpc ~ 0
+IO25
+Text GLabel 8550 4700 2    50   UnSpc ~ 0
+IO26
+Text GLabel 8550 4600 2    50   UnSpc ~ 0
+IO27
 $Comp
 L R_Pack04 RN207
 U 1 1 5A300F55
@@ -782,14 +782,14 @@ F 6 "2" H 9300 3950 60  0001 C CNN "AssemblyVariant"
 	1    9300 3950
 	0    1    1    0   
 $EndComp
-Text GLabel 9600 3750 2    50   UnSpc ~ 0
-IO28_BB
-Text GLabel 9600 3850 2    50   UnSpc ~ 0
-IO29_BB
-Text GLabel 9600 3950 2    50   UnSpc ~ 0
-IO30_BB
 Text GLabel 9600 4050 2    50   UnSpc ~ 0
-IO31_BB
+IO28
+Text GLabel 9600 3950 2    50   UnSpc ~ 0
+IO29
+Text GLabel 9600 3850 2    50   UnSpc ~ 0
+IO30
+Text GLabel 9600 3750 2    50   UnSpc ~ 0
+IO31
 $Comp
 L R_Pack04 RN209
 U 1 1 5A301315
@@ -804,30 +804,14 @@ F 6 "2" H 9300 4800 60  0001 C CNN "AssemblyVariant"
 	1    9300 4800
 	0    1    1    0   
 $EndComp
-Text GLabel 9600 4600 2    50   UnSpc ~ 0
-IO32_BB
 Text GLabel 9600 4700 2    50   UnSpc ~ 0
-IO33_BB
+IO32
+Text GLabel 9600 4600 2    50   UnSpc ~ 0
+IO33
 NoConn ~ 9600 4800
 NoConn ~ 9600 4900
 Text GLabel 8050 1200 2    50   UnSpc ~ 0
-PU_OR_PD
-Text GLabel 8050 2050 2    50   UnSpc ~ 0
-PU_OR_PD
-Text GLabel 9100 1200 2    50   UnSpc ~ 0
-PU_OR_PD
-Text GLabel 10200 1250 2    50   UnSpc ~ 0
-PU_OR_PD
-Text GLabel 8050 4350 2    50   UnSpc ~ 0
-PU_OR_PD
-Text GLabel 9100 4350 2    50   UnSpc ~ 0
-PU_OR_PD
-Text GLabel 9100 2050 2    50   UnSpc ~ 0
-PU_OR_PD
-Text GLabel 8050 3500 2    50   UnSpc ~ 0
-PU_OR_PD
-Text GLabel 9100 3500 2    50   UnSpc ~ 0
-PU_OR_PD
+PULLUP_REF
 $Comp
 L GNDD #PWR050
 U 1 1 5A3108A3
@@ -1343,4 +1327,20 @@ Text Notes 4600 850  0    60   ~ 0
 Level Shifters and PU Resistors for Port 1
 Text Notes 4600 3150 0    60   ~ 0
 Level Shifters and PU Resistors for Port 2
+Text GLabel 9100 1200 2    50   UnSpc ~ 0
+PULLUP_REF
+Text GLabel 10200 1250 2    50   UnSpc ~ 0
+PULLUP_REF
+Text GLabel 8050 2050 2    50   UnSpc ~ 0
+PULLUP_REF
+Text GLabel 9100 2050 2    50   UnSpc ~ 0
+PULLUP_REF
+Text GLabel 8050 3500 2    50   UnSpc ~ 0
+PULLUP_REF
+Text GLabel 9100 3500 2    50   UnSpc ~ 0
+PULLUP_REF
+Text GLabel 9100 4350 2    50   UnSpc ~ 0
+PULLUP_REF
+Text GLabel 8050 4350 2    50   UnSpc ~ 0
+PULLUP_REF
 $EndSCHEMATC
