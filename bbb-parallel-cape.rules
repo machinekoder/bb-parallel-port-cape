@@ -1,0 +1,135 @@
+
+(rules PCB bbb-parallel-cape
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1484)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.6)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 177.8)
+    (clear 178.0)
+    (clear 88.9 (type smd_to_turn_gap))
+    (clear 44.6 (type smd_smd))
+  )
+  (padstack "Via[0-1]_600:400_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
+  )
+  (via 
+    "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:400_um-Big" "Via[0-1]_600:400_um" Big
+  )
+  (via 
+    "Via[0-1]_600:400_um-Output" "Via[0-1]_600:400_um" Output
+  )
+  (via 
+    "Via[0-1]_600:400_um-Power" "Via[0-1]_600:400_um" Power
+  )
+  (via_rule
+    default "Via[0-1]_600:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:400_um-kicad_default"
+  )
+  (via_rule
+    Big "Via[0-1]_600:400_um-Big"
+  )
+  (via_rule
+    Output "Via[0-1]_600:400_um-Output"
+  )
+  (via_rule
+    Power "Via[0-1]_600:400_um-Power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 177.8)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "PWR_BUT" "VDD_ADC" "GNDA_ADC" "Net-(C201-Pad1)" "Net-(C202-Pad1)" "Net-(C203-Pad1)" "Net-(C204-Pad1)" "Net-(C205-Pad1)"
+    "Net-(D1-Pad2)" "Net-(D1-Pad1)" "Net-(D2-Pad2)" "Net-(IC201-Pad2)" "IO0_BB" "IO1_BB" "IO2_BB" "IO3_BB"
+    "IO4_BB" "IO5_BB" "IO6_BB" "IO7_BB" IO7 IO6 IO5 IO4
+    IO3 IO2 IO1 IO0 "Net-(IC202-Pad2)" "IO8_BB" "IO9_BB" "IO10_BB"
+    "IO11_BB" "IO12_BB" "IO13_BB" "IO14_BB" "IO15_BB" IO15 IO14 IO13
+    IO12 IO11 IO10 IO9 IO8 "Net-(IC203-Pad2)" "IO16_BB" "IO17_BB"
+    "IO18_BB" "IO19_BB" "IO20_BB" "IO21_BB" "IO22_BB" "IO23_BB" IO23 IO22
+    IO21 IO20 IO19 IO18 IO17 IO16 "Net-(IC204-Pad2)" "IO24_BB"
+    "IO25_BB" "IO26_BB" "IO27_BB" "IO28_BB" "IO29_BB" "IO30_BB" "IO31_BB" IO31
+    IO30 IO29 IO28 IO27 IO26 IO25 IO24 "Net-(IC205-Pad2)"
+    "IO32_BB" "IO33_BB" IO33 IO32 "SYS_RESETn" CODING "STATUS_LED" "PULLUP_REF"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 177.8)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Big
+    (clearance_class Big)
+    (via_rule Big)
+    (rule
+      (width 304.8)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Output
+    (clearance_class Output)
+    (via_rule Output)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    GNDD +3V3 +5V "SYS_5V" "GND_OR_5V"
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 381.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

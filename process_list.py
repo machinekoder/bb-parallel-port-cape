@@ -49,11 +49,14 @@ with open(args.filename) as f:
     sh.col(3).width = 256 * 25
     sh.write(0, 4, 'Count', style=boldStyle)
     sh.col(4).width = 256 * 10
+    sh.write(0, 5, 'Variants', style=boldStyle)
+    sh.col(5).width = 256 * 10
 
     parts = list(set(parts))
     totalcount = 0
     for i, part in enumerate(parts):
         names = []
+        part_variants = set()
         count = 0
         value = ''
         manufacturer = ''
@@ -62,6 +65,7 @@ with open(args.filename) as f:
             partname = linedata[4]
             if (partname == part):
                 names.append(linedata[0])
+                part_variants.add(linedata[6])
                 value = linedata[1]
                 manufacturer = linedata[5]
                 count += 1
@@ -70,6 +74,7 @@ with open(args.filename) as f:
         sh.write(i + 1, 2, manufacturer)
         sh.write(i + 1, 3, part)
         sh.write(i + 1, 4, str(count))
+        sh.write(i + 1, 5, ' '.join(part_variants))
         totalcount += count
     f.close()
     sh.write(len(parts) + 2, 3, 'Different parts', style=boldStyle)
